@@ -1,0 +1,42 @@
+div {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Pantalla o contenedor principal */
+  .screen {
+    background-color: #005ae0;
+    padding: 2rem 1rem;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  /* Encabezado */
+  .header {
+    background: linear-gradient(90deg, #1f1f1f, #3a3a3a);
+    color: #fff;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  /* Contenedor de cursos */
+  .mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+

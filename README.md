@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📚 Chiroli - React Router
 
 Este proyecto muestra cómo implementar navegación entre componentes usando **React Router**.

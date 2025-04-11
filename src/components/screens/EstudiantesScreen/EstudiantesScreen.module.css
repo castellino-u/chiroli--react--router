@@ -1,0 +1,44 @@
+.screen {
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  background: linear-gradient(90deg, #1a1a1a, #2c2c2c);
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.btnCustom {
+  background-color: #2023e6;
+  color: white;
+  padding: 0.6em 1.2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btnCustom:hover {
+  background-color: #1a1ec5;
+  transform: scale(1.05);
+}

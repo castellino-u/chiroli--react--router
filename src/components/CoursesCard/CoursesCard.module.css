@@ -1,0 +1,41 @@
+.card{
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    margin: 10px;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.btnCustom{
+    background-color: #2023e6;
+    color: white;
+    font-weight: 600;
+    padding: 0.6em 1.2em;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    padding: 15px;
+}
+
+
+.btnCustom:hover {
+    background-color: #2023e6;
+    transform: translateY(-2px);
+  }
+  
+  .btnCustom:active {
+    transform: translateY(0);
+  }
+
